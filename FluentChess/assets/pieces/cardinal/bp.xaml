@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--This file is NOT compatible with Silverlight-->
+<Viewbox xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" Stretch="Uniform">
+  <Canvas Name="svg13" Width="50" Height="50">
+    <Canvas.RenderTransform>
+      <TranslateTransform X="0" Y="0"/>
+    </Canvas.RenderTransform>
+    <Canvas.Resources>
+      <LinearGradientBrush xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" x:Key="linearGradient3001-0" MappingMode="Absolute" StartPoint="4182,-2619" EndPoint="4182,-2496">
+        <LinearGradientBrush.GradientStops>
+          <GradientStopCollection>
+            <GradientStop Color="#3C3C3C" Offset="0"/>
+            <GradientStop Color="#000000" Offset="1"/>
+          </GradientStopCollection>
+        </LinearGradientBrush.GradientStops>
+        <LinearGradientBrush.Transform>
+          <MatrixTransform Matrix=".26749 0 0 .26799 -1093.5 713.11"/>
+        </LinearGradientBrush.Transform>
+      </LinearGradientBrush>
+    </Canvas.Resources>
+    <!--Unknown tag: sodipodi:namedview-->
+    <!--Unknown tag: metadata-->
+    <Path xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" Name="path11" Fill="{StaticResource linearGradient3001-0}" StrokeThickness="1.1" Stroke="#FF010101" StrokeLineJoin="Round" StrokeStartLineCap="Square" StrokeEndLineCap="Square">
+      <Path.Data>
+        <PathGeometry Figures="m25.019 43.45h-13.439c-2.4659-5.7238 4.0721-11.03 8.6676-12.832-5.4922-3.0738-2.5148-10.911 2.1927-11.547-1.1209-0.74196-1.6813-2.3272-1.6813-3.5992 0-1.06 0.44836-2.014 1.2329-2.7559 0.78463-0.74196 1.7934-1.1659 3.0263-1.1659 1.1208 0 2.1296 0.42396 3.0263 1.1659 0.7846 0.74196 1.2329 1.6959 1.2329 2.7559 0 1.2719-0.56045 2.8573-1.6814 3.5992 5.1559 2.0139 7.0125 9.427 2.1928 11.547 6.2767 2.2259 10.685 7.8501 8.6676 12.832z" FillRule="EvenOdd"/>
+      </Path.Data>
+    </Path>
+  </Canvas>
+</Viewbox>

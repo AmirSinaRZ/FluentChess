@@ -1,0 +1,107 @@
+﻿<ui:FluentWindow x:Class="FluentChess.app.MainWindow"
+                 xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                 xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                 xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+                 xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+                 xmlns:local="clr-namespace:FluentChess.app"
+                 xmlns:ui="http://schemas.lepo.co/wpfui/2022/xaml"
+                 xmlns:board="clr-namespace:FluentChess.app.board"
+                 ExtendsContentIntoTitleBar="True"
+                 WindowBackdropType="Mica"
+                 WindowCornerPreference="Round"
+                 WindowStartupLocation="CenterScreen"
+                 mc:Ignorable="d"
+                 Title="FluentChess"
+                 SizeToContent="Manual">
+
+    <Grid>
+        <DockPanel LastChildFill="True">
+            <ui:TitleBar
+                DockPanel.Dock="Top"
+                Title="FluentChess" />
+
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto" />
+                    <RowDefinition Height="*" />
+                </Grid.RowDefinitions>
+
+                <Grid Grid.Row="0" Margin="10" VerticalAlignment="Center">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*" />
+                        <ColumnDefinition Width="*" />
+                    </Grid.ColumnDefinitions>
+
+                    <TextBlock x:Name="Game"
+                               Grid.Column="0"
+                               Text="Game Status: Playing"
+                               FontSize="18"
+                               VerticalAlignment="Center" />
+                    <TextBlock 
+                               Grid.Column="1"
+                               Text="Moves"
+                               FontSize="18"
+                               VerticalAlignment="Center"
+                               TextAlignment="Center" />
+                </Grid>
+
+
+                <Grid Grid.Row="1">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="2*" />
+                        <ColumnDefinition Width="*" />
+                    </Grid.ColumnDefinitions>
+
+
+                    <Grid x:Name="board"
+                          Grid.Column="0">
+                        <board:ChessBoardGUI x:Name="ChessBoardGui" Margin="10" />
+                    </Grid>
+
+
+                    <Grid Grid.Column="1">
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="*" />
+                            <RowDefinition Height="Auto" />
+                        </Grid.RowDefinitions>
+
+                        <ui:ListView x:Name="listview1"
+                                     Margin="10"
+                                     Grid.Row="0"
+                                     Padding="8"
+                                     SelectionMode="Single">
+                        </ui:ListView>
+
+                        <Grid Grid.Row="1">
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="*" />
+                                <ColumnDefinition Width="*" />
+                            </Grid.ColumnDefinitions>
+
+                            <ui:Button x:Name="CopyFen"
+                                       Grid.Column="0"
+                                       Content="Copy FEN"
+                                       FontSize="12"
+                                       Margin="10"
+                                       HorizontalAlignment="Stretch"
+                                       Appearance="Primary"
+                                       Click="CopyFen_OnClick"/>
+                            <ui:Button x:Name="CopyPgn"
+                                       Grid.Column="1"
+                                       Content="Copy PGN"
+                                       FontSize="12"
+                                       Margin="10"
+                                       HorizontalAlignment="Stretch"
+                                       Appearance="Secondary"
+                                       Click="CopyPgn_OnClick"/>
+                        </Grid>
+                    </Grid>
+                </Grid>
+            </Grid>
+
+
+        </DockPanel>
+        <ContentPresenter x:Name="Presenter"
+                          Grid.Row="0"/>
+    </Grid>
+</ui:FluentWindow>

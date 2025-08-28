@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--This file is NOT compatible with Silverlight-->
+<Viewbox xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" Stretch="Uniform">
+  <Canvas Name="svg15" Width="50" Height="50">
+    <Canvas.RenderTransform>
+      <TranslateTransform X="0" Y="0"/>
+    </Canvas.RenderTransform>
+    <Canvas.Resources>
+      <LinearGradientBrush xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" x:Key="linearGradient3009-3" MappingMode="Absolute" StartPoint="4182,-2619" EndPoint="4182,-2496">
+        <LinearGradientBrush.GradientStops>
+          <GradientStopCollection>
+            <GradientStop Color="#FFFFFF" Offset="0"/>
+            <GradientStop Color="#E6E6E6" Offset="1"/>
+          </GradientStopCollection>
+        </LinearGradientBrush.GradientStops>
+        <LinearGradientBrush.Transform>
+          <MatrixTransform Matrix=".27677 0 0 .27555 -1132.3 731.96"/>
+        </LinearGradientBrush.Transform>
+      </LinearGradientBrush>
+    </Canvas.Resources>
+    <!--Unknown tag: sodipodi:namedview-->
+    <!--Unknown tag: metadata-->
+    <Canvas Name="g13">
+      <Canvas.RenderTransform>
+        <MatrixTransform Matrix=".96658 0 0 .97245 .83342 1.2431"/>
+      </Canvas.RenderTransform>
+      <Path xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" Name="path11" Fill="{StaticResource linearGradient3009-3}" StrokeThickness="1.1346" Stroke="#FF000000" StrokeLineJoin="Round" StrokeStartLineCap="Square" StrokeEndLineCap="Square">
+        <Path.Data>
+          <PathGeometry Figures="m25.024 43.401h-13.905c-2.5514-5.8853 4.2134-11.341 8.9683-13.194-5.6827-3.1606-2.6021-11.219 2.2688-11.873-1.1598-0.7629-1.7396-2.3929-1.7396-3.7008 0-1.0899 0.46392-2.0708 1.2757-2.8337 0.81185-0.7629 1.8556-1.1988 3.1313-1.1988 1.1597 0 2.2035 0.43593 3.1313 1.1988 0.81182 0.7629 1.2757 1.7438 1.2757 2.8337 0 1.3078-0.57989 2.9379-1.7397 3.7008 5.3348 2.0707 7.2558 9.6931 2.2689 11.873 6.4945 2.2887 11.056 8.0716 8.9683 13.194z" FillRule="EvenOdd"/>
+        </Path.Data>
+      </Path>
+    </Canvas>
+  </Canvas>
+</Viewbox>

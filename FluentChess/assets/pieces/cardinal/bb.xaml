@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--This file is NOT compatible with Silverlight-->
+<Viewbox xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" Stretch="Uniform">
+  <Canvas Name="svg24" Width="50" Height="50">
+    <Canvas.RenderTransform>
+      <TranslateTransform X="0" Y="0"/>
+    </Canvas.RenderTransform>
+    <Canvas.Resources>
+      <LinearGradientBrush xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" x:Key="linearGradient3065-9" MappingMode="Absolute" StartPoint="3850,-425" EndPoint="3850,-307">
+        <LinearGradientBrush.GradientStops>
+          <GradientStopCollection>
+            <GradientStop Color="#3C3C3C" Offset="0"/>
+            <GradientStop Color="#000000" Offset="1"/>
+          </GradientStopCollection>
+        </LinearGradientBrush.GradientStops>
+        <LinearGradientBrush.Transform>
+          <MatrixTransform Matrix=".33757 0 0 .32227 -1274.8 143.07"/>
+        </LinearGradientBrush.Transform>
+      </LinearGradientBrush>
+      <BlurEffect xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" x:Key="filter2809-5-4-0-0" Radius="0"/>
+    </Canvas.Resources>
+    <!--Unknown tag: sodipodi:namedview-->
+    <!--Unknown tag: metadata-->
+    <Canvas Name="g20">
+      <Path xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" Name="path14" Fill="{StaticResource linearGradient3065-9}" StrokeThickness="1.1" Stroke="#FF010101" StrokeLineJoin="Round">
+        <Path.Data>
+          <PathGeometry Figures="m24.999 39.486c-0.20249 0.87016-0.50626 1.4502-0.81014 1.7725-3.8821 4.5441-9.2677 0.19341-14.162 1.5792-0.50636 0.12891-0.91144 0.35452-1.1814 0.61234l-2.2955-3.5772c6.1438-5.382 12.171 0.41893 15.209-2.9327-0.84394-0.09701-1.6879-0.22562-2.5655-0.45113-0.77645-0.19341-2.2954-0.67684-2.2954-0.67684l1.1139-5.8331s-1.7587-1.9425-2.3967-3.0616c-0.35578-0.62394-0.67515-1.3535-0.77645-1.998-0.10129-0.58014-0.16879-1.1603-0.16879-1.7403 0-0.90236 0.23628-1.9013 0.67515-2.9971 1.1815-2.3847 3.4433-3.6093 5.3673-5.1562 1.0127-0.83786 1.958-1.7402 2.8019-2.6748-1.1478-0.58014-1.7554-1.4825-1.7554-2.7393 0-0.83796 0.30378-1.5791 0.94514-2.1592 0.60766-0.61224 1.384-0.90236 2.2954-0.90236 0.87774 0 1.6541 0.29012 2.2618 0.90236 0.64136 0.61234 0.94514 1.3214 0.94514 2.1592 0 1.2247-0.57386 2.1269-1.7554 2.7393 0.84394 0.96676 1.7891 1.8691 2.7681 2.6748 1.9242 1.6113 4.4559 2.9327 5.3673 5.1562 0.43887 1.0958 0.67515 2.0948 0.67515 2.9971 0 0.51563-0.034 1.0957-0.16879 1.7403-0.10129 0.64454-0.42287 1.373-0.77645 1.998-0.63086 1.1155-2.3629 3.0616-2.3629 3.0616l1.1139 5.8331s-1.4853 0.48343-2.3292 0.67684c-0.87774 0.22552-1.6879 0.38673-2.498 0.45113 3.8821 4.5762 10.787-1.7402 15.209 2.9327l-2.3292 3.5772c-5.57-3.0294-9.8072 3.0293-15.378-2.256-0.27008-0.29002-0.54016-0.87016-0.74275-1.708z" FillRule="EvenOdd"/>
+        </Path.Data>
+      </Path>
+      <Ellipse xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" Canvas.Left="2704" Width="32.6" Canvas.Top="-273.9" Height="5" Name="ellipse16" Fill="#FFE6E6E6" StrokeThickness=".80217" Effect="{StaticResource filter2809-5-4-0-0}">
+        <Ellipse.RenderTransform>
+          <MatrixTransform Matrix=".33757 0 0 .32227 -893.33 122.14"/>
+        </Ellipse.RenderTransform>
+      </Ellipse>
+      <Ellipse xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" Canvas.Left="23.9" Width="2.3" Canvas.Top="8.5" Height="2.3" Name="ellipse18" Fill="#FFFFFFFF" StrokeThickness=".26458"/>
+    </Canvas>
+    <Path xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" Name="path22" StrokeThickness="1.4" Stroke="#FFE6E6E6">
+      <Path.Data>
+        <PathGeometry Figures="m21.332 23.266h7.333m-3.6663-3.3339v6.7524" FillRule="EvenOdd"/>
+      </Path.Data>
+    </Path>
+  </Canvas>
+</Viewbox>
